@@ -1,20 +1,3 @@
-r"""Exp 6: Compare different ways of scaling for centered clipping
-
-- Fix:
-    - n=25, f=5
-    - Number of iterations = 1200
-    - Not *Long tail* (alpha=1)
-    - Always NonIID
-    - Number of runs = 1
-    - LR = 0.01
-    - Aggregator: CP
-
-Experiment:
-    - ATK= BF LF mimic IPM ALIE
-    - m=0, 0.5, 0.9, 0.99
-    - bucketing or not
-    - scaling rule: NA, linear sqrt
-"""
 import os
 import subprocess
 import argparse
